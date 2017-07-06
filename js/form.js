@@ -9,10 +9,10 @@ function sendForm(e) {
 		url: "https://formspree.io/goncharukvitalij@gmail.com",
 		method: "POST",
 		data: {
-			name: $('#name').val(),
-			email: $('#mail').val(),
-            subject:$('#subject').val(),
-            Mymessage:$('#Mymessage').val()
+			Name: $('#name').val(),
+			Email: $('#mail').val(),
+            TelephoneNumber:$('#telephone').val(),
+            Text:$('#Mymessage').val()
             },
 		dataType: "json"
 	})

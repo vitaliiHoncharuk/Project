@@ -142,7 +142,7 @@ nav ul li a:visited {
     font-style: italic;
 }
 
-.сontacts_text {
+.contacts_text {
     padding: 30px;
     font-size: 2rem;
 }
@@ -452,7 +452,7 @@ nav ul li a:visited {
     .footer {
         height: 320px;
     }
-    .сontacts_text {
+    .contacts_text {
         margin-left: 15px;
     }
 }

@@ -102,7 +102,10 @@ nav ul li a:visited {
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
-
+.prices{
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .section_mainPage {
     font-family: 'Eczar', serif;
     margin: 5px;
@@ -142,7 +145,7 @@ nav ul li a:visited {
     font-style: italic;
 }
 
-.contacts_text {
+.сontacts_text {
     padding: 30px;
     font-size: 2rem;
 }
@@ -452,7 +455,7 @@ nav ul li a:visited {
     .footer {
         height: 320px;
     }
-    .contacts_text {
+    .сontacts_text {
         margin-left: 15px;
     }
 }
@@ -468,6 +471,20 @@ nav ul li a:visited {
         height: 380px;
         margin-top: 500px;
     }
+    .contact-form{
+        height: 60px;
+    }
+    .footer-center{
+        padding-right: 45px;
+    }
+    .about_us__text{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .сontacts_text{
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 867px) {
